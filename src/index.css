@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  text-align: center;
+}
+
+.textArea {
+  border: 2px ridge;
+  height: 170px;
+  width: 450px;
+  margin-top: 15px;
+  border-color: gray;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.addBtn {
+  padding: 9px 30px 9px 30px;
+  border: 1px solid;
+  border-radius: 16px;
+  top: -50px;
+  left: 165px;
+  color: white;
+  background-color: green;
+  position: relative;
+  cursor: pointer;
+}
+
+.divColorBtns {
+  position: relative;
+  left: -150px;
+  top: -75px;
+}
+
+.colorBtn-P {
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: pink;
+  padding: 9px;
+  background-color: pink;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.colorBtn-Pr {
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: purple;
+  padding: 9px;
+  background-color: purple;
+  margin: 3px;
+  cursor: pointer;
+}
+.colorBtn-Y {
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: yellow;
+  padding: 9px;
+  background-color: yellow;
+  margin: 3px;
+  cursor: pointer;
+}
+.colorBtn-T {
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: turquoise;
+  padding: 9px;
+  background-color: turquoise;
+  margin: 3px;
+  cursor: pointer;
+}
+.colorBtn-G {
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: green;
+  padding: 9px;
+  background-color: green;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.noteContainer {
+  margin-top: -60px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item- {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 11%;
+  height: auto;
+  background-color: yellow;
+  font-weight: 500;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid gray transparent;
+}
+
+.list-item-P {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 11%;
+  height: auto;
+  background-color: pink;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid gray transparent;
+}
+
+.list-item-Pr {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 11%;
+  height: auto;
+  background-color: purple;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid gray transparent;
+}
+
+.list-item-Y {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 11%;
+  height: auto;
+  background-color: yellow;
+  font-weight: 500;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid gray transparent;
+}
+
+.list-item-T {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 11%;
+  height: auto;
+  background-color: turquoise;
+  color: black;
+  font-weight: 500;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid gray transparent;
+}
+
+.list-item-G {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 11%;
+  height: auto;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid gray transparent;
+}
+
+.search {
+  border: 1px solid;
+  border-radius: 15px;
+  height: 30px;
+  padding-left: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
